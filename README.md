@@ -12,7 +12,7 @@ Then load with `require`:
 const Autoencoder = require('autoencoder')
 ```
 
-![Autoencoder](./assets/autoencoder.png =400x)
+![Autoencoder](./assets/autoencoder.png)
 
 ### Create new autoencoder
 `Autoencoder` supports two ways of a model initialization:
