@@ -1,6 +1,8 @@
 # Autoencoder
 A simple autoencoder module for experimentation and dimensionality reduction. Supports automatic scaling
 
+![Autoencoder](./assets/autoencoder.png)
+
 ### Install and load
 Install from npm:
 ```
@@ -11,8 +13,6 @@ Then load with `require`:
 ```javascript
 const Autoencoder = require('autoencoder')
 ```
-
-![Autoencoder](./assets/autoencoder.png)
 
 ### Create new autoencoder
 `Autoencoder` supports two ways of a model initialization:
