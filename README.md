@@ -60,4 +60,4 @@ Optimization methods: `sgd`, `adagrad`, `adam`
 const Y = ae.encode(X)
 const Xd = ae.decode(Y)
 const Xp = ae.predict(X) // Similar to ae.decode(ae.encode(X))
-``://www.npmjs.com/package/autoencoder`
+```
