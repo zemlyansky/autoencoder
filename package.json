@@ -1,0 +1,25 @@
+{
+  "name": "autoencoder",
+  "version": "0.0.1",
+  "description": "Autoencoder",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zemlyansky/autoencoder"
+  },
+  "keywords": [
+    "autoencoder",
+    "neural-net"
+  ],
+  "author": "Anton Zemlyansky",
+  "license": "MIT",
+  "dependencies": {
+    "adnn": "^2.0.10"
+  },
+  "devDependencies": {
+    "tape": "^4.13.2"
+  }
+}
