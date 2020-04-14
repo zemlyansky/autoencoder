@@ -12,9 +12,11 @@ Then load with `require`:
 const Autoencoder = require('autoencoder')
 ```
 
+![Autoencoder](./assets/autoencoder.png =400x)
+
 ### Create new autoencoder
 `Autoencoder` supports two ways of a model initialization:
-1. Provide the number of layers, input size, encoder output size (number of latent variables) and the activation function name
+- Provide the number of layers, input size, encoder output size (number of latent variables) and the activation function name
 ```javascript
 const ae = new Autoencoder({
   'nInputs': 10,
@@ -23,7 +25,7 @@ const ae = new Autoencoder({
   'activation': 'relu' // (default 'relu') - applied to all, but the last layer
 })
 ```
-2. Provide full structure for encoder and decoder
+- Define each layer separately for both encoder and decoder
 ```javascript
 const ae = new Autoencoder({
   'encoder': [
@@ -54,8 +56,8 @@ ae.fit(X, {
 Optimization methods: `sgd`, `adagrad`, `adam`
 
 ### Encode, Decode, Predict
-```javasript
+```javascript
 const Y = ae.encode(X)
-const X1 = ae.decode(Y)
-const X2 = ae.predict(X)
-```
+const Xd = ae.decode(Y)
+const Xp = ae.predict(X) // Similar to ae.decode(ae.encode(X))
+``://www.npmjs.com/package/autoencoder`
