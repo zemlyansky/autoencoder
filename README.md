@@ -61,3 +61,7 @@ const Y = ae.encode(X)
 const Xd = ae.decode(Y)
 const Xp = ae.predict(X) // Similar to ae.decode(ae.encode(X))
 ```
+
+### Web demo (dimensionality reduction)
+
+Try the package in the browser on [StatSim Vis](https://statsim.com/vis). Choose a CSV file, change a dimensionality reduction method to **Autoencoder**, then click *Run*.
