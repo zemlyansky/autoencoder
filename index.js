@@ -4,7 +4,7 @@ const opt = require('adnn/opt')
 
 module.exports = class Autoencoder {
   constructor (params) {
-    this.scale = params.scale || true
+    this.scale = params.scale ?? true
 
     let encoderLayers = []
     let decoderLayers = []
